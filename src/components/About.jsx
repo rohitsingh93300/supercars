@@ -5,11 +5,11 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <div className='bg-slate-50 relative z-0 overflow-x-hidden lg:overflow-x-visible'>
+    <div className='bg-slate-50 relative z-0 overflow-x-hidden '>
     <div className='max-w-7xl  mx-auto'>
         <div className='flex flex-col lg:flex-row gap-6 h-[650px] items-center justify-center'>
              {/* hero image */}
-             <div className='lg:w-1/2 flex justify-center'>
+             <div className='lg:w-1/2 flex justify-center w-80'>
                 <motion.img
                 initial={{opacity:0,x:-200, scale:0.7}}
                 whileInView={{opacity:1, x:0, scale:1}}

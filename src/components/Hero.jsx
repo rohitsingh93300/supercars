@@ -8,7 +8,7 @@ const Hero = () => {
     return (
         <div className='bg-[#201F1F] relative z-10 overflow-x-hidden lg:overflow-x-visible'>
             <div className='max-w-7xl  mx-auto'>
-                <div className='flex flex-col  lg:flex-row gap-6 h-screen lg:h-[650px] items-center justify-center'>
+                <div className='flex flex-col  lg:flex-row gap-12 lg:gap-6 h-screen lg:h-[650px] lg:items-center lg:justify-center lg:pt-0 pt-12'>
                     {/* hero text */}
                     <div className='lg:w-1/2 flex  flex-col px-8 space-y-5 justify-center '>
                         <motion.h3  
@@ -42,7 +42,7 @@ const Hero = () => {
                         variants={FadeUp(1.8)}
                         initial="hidden"
                         animate="visible"
-                        className='flex flex-col lg:flex-row gap-5 text-white pt-7'>
+                        className='flex flex-col lg:flex-row gap-2 lg:gap-5 text-white pt-1 lg:pt-7'>
                             <div className="flex  items-center">
                                 <Gauge className="h-8 w-8 text-red-500 mr-2" />
                                 <span className="text-sm font-medium">Top Speed: 350 km/h</span>
