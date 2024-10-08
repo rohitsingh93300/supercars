@@ -18,9 +18,9 @@ const Banner = () => {
         }} className=''>
         </div>
         <motion.div
-          initial={{ opacity: 0, scale: 0.7 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.2 }}
+           initial={{ opacity: 0, scale: 0.7 }}
+           whileInView={{ opacity: 1, scale: 1 }}
+           transition={{ duration: 1, delay: 0.2 }}
           style={{ width: "400px" }} className='lg:pl-16 absolute top-10 lg:left-32 mx-auto px-7 lg:px-0' >
           <h2 className='text-white text-5xl font-bold text-center mb-5'>Contact <span className='text-red-500'>Us</span></h2>
           <form
